@@ -6,7 +6,7 @@ import { getDatabase,
          remove } from "https://leads-tracker-app-6ef38-default-rtdb.firebaseio.com/"
 
 const firebaseConfig = {
-    databaseURL: process.env.DATABASE_URL
+    databaseURL: "https://leads-tracker-app-6ef38-default-rtdb.firebaseio.com/"
 }
 
 const app = initializeApp(firebaseConfig)
