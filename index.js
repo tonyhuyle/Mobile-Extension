@@ -3,7 +3,7 @@ import { getDatabase,
          ref,
          push,
          onValue,
-         remove } from "https://leads-tracker-app-6ef38-default-rtdb.firebaseio.com/"
+         remove } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js"
 
 const firebaseConfig = {
     databaseURL: "https://leads-tracker-app-6ef38-default-rtdb.firebaseio.com/"
